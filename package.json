@@ -1,0 +1,22 @@
+{
+  "name": "solid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-plugin-jsx-dom-expressions": "^0.5.3",
+    "parcel": "^1.12.3"
+  },
+  "dependencies": {
+    "solid-js": "^0.4.4"
+  }
+}
